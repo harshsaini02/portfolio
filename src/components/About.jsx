@@ -39,15 +39,15 @@ export default function About() {
               <div className="avatar-ring ring-2" />
               <div className="avatar-ring ring-3" />
             </div>
-            <div className="avatar-badge">
+            {/* <div className="avatar-badge">
             <span className="badge-icon">🚀</span>
             <span>1+ Years Freelancing</span>
-            </div>
+            </div> */}
 
           </div>
 
           {/* Experience cards */}
-          <motion.div
+          {/* <motion.div
             className="exp-card"
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -55,9 +55,9 @@ export default function About() {
           >
             <span className="exp-num">10+</span>
             <span className="exp-text">Projects Completed</span>
-          </motion.div>
+          </motion.div> */}
 
-          <motion.div
+           {/* <motion.div
             className="exp-card exp-card-2"
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -65,7 +65,7 @@ export default function About() {
           >
             <span className="exp-num">∞</span>
             <span className="exp-text">Lines of Code</span>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
 
         {/* Right side - content */}
@@ -82,7 +82,7 @@ export default function About() {
           </h2>
 
           <p className="about-text">
-            I'm a passionate Full Stack Developer with 1+ years of freelance experience 
+            I'm a passionate Full Stack Developer with + years of freelance experience 
             building scalable web and mobile applications. 
             I specialize in <strong>React, Node.js, MERN Stack, and Django</strong> 
             to create high-performance, secure, and user-friendly systems. 

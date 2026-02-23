@@ -17,30 +17,32 @@ const skillCategories = [
     category: 'Backend',
     icon: '⚙️',
     skills: [
-      { name: 'Node.js / Express', level: 92 },
+      { name: 'Node.js / Express', level: 88 },
       { name: 'Python / FastAPI', level: 78 },
-      { name: 'GraphQL', level: 82 },
-      { name: 'REST APIs', level: 96 },
+      { name: 'Django (Python)', level: 80 },
+      { name: 'REST APIs', level: 90 }
     ],
   },
   {
     category: 'Database',
     icon: '🗄️',
     skills: [
-      { name: 'PostgreSQL', level: 88 },
-      { name: 'MongoDB', level: 85 },
-      { name: 'Redis', level: 75 },
-      { name: 'Prisma ORM', level: 82 },
+     { name: 'PostgreSQL', level: 88 },
+    { name: 'MySQL', level: 85 },
+    { name: 'MongoDB', level: 82 },
+    { name: 'Firebase (Firestore)', level: 80 },
+    { name: 'SQLite', level: 78 },
     ],
   },
   {
     category: 'DevOps & Cloud',
     icon: '☁️',
     skills: [
-      { name: 'AWS', level: 80 },
-      { name: 'Docker / K8s', level: 76 },
-      { name: 'CI/CD', level: 84 },
-      { name: 'Linux', level: 88 },
+      { name: 'Linux', level: 85 },
+      { name: 'AWS (EC2, S3)', level: 78 },
+      { name: 'Docker', level: 75 },
+      { name: 'CI/CD (GitHub Actions)', level: 82 },
+      { name: 'Vercel / Railway Deployment', level: 88 },
     ],
   },
 ];
@@ -132,9 +134,9 @@ export default function Skills() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.7 }}
-        >
+        > 
           <span className="tools-label">Also comfortable with:</span>
-          {['Git', 'Figma', 'Jest', 'Webpack', 'Nginx', 'Stripe', 'Firebase', 'Supabase'].map((tool) => (
+          {['Git', 'Figma', 'Jest', 'Webpack', 'Nginx', 'Stripe', 'Supabase'].map((tool) => (
             <span key={tool} className="tool-chip">{tool}</span>
           ))}
         </motion.div>

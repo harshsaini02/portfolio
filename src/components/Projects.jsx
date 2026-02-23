@@ -203,7 +203,7 @@ export default function Projects() {
           animate={inView ? { opacity: 1 } : {}}
           transition={{ delay: 0.8 }}
         >
-          <a href="https://github.com" target="_blank" rel="noreferrer" className="more-projects-btn">
+          <a href="https://github.com/harshsaini02" target="_blank" rel="noreferrer" className="more-projects-btn">
             See All Projects on GitHub
             <span className="btn-icon">↗</span>
           </a>
