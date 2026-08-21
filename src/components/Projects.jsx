@@ -76,6 +76,18 @@ const projects = [
   emoji: '💬',
   live: '#',
   github: '#',
+},
+
+{
+  id: 7,
+  title: 'NOVA – AI Chatbot',
+  category: 'AI / LLM',
+  desc: 'LLM-powered chatbot built with the Gemini API, featuring an LLM-agnostic architecture designed to progress from basic conversation to RAG-based document Q&A and AI agents.',
+  tech: ['Gemini API', 'Django REST Framework', 'React (Vite)', 'LLM Integration', 'RAG (in progress)'],
+  color: '#2E74B5',
+  emoji: '🤖',
+  live: '#',
+  github: '#',
 }
 
 ];

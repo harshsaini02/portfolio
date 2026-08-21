@@ -38,11 +38,11 @@ const skillCategories = [
     category: 'DevOps & Cloud',
     icon: '☁️',
     skills: [
-      { name: 'Linux', level: 85 },
+      { name: 'Vercel', level: 92 },
       { name: 'AWS (EC2, S3)', level: 78 },
       { name: 'Docker', level: 75 },
       { name: 'CI/CD (GitHub Actions)', level: 82 },
-      { name: 'Vercel / Railway Deployment', level: 88 },
+      { name: 'Railway Deployment', level: 88 },
     ],
   },
 ];
